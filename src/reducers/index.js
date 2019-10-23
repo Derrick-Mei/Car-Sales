@@ -23,7 +23,7 @@ export function reducer(state = initialState, action) {
         additionalPrice: state.additionalPrice + action.payload.price,
         car: {
           ...state.car,
-          features: [...(state.car.features, action.payload)]
+          features: [...state.car.features, action.payload]
         },
         additionalFeatures: state.additionalFeatures.filter(
           item => item.id !== action.payload.id
