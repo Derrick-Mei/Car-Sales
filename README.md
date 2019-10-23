@@ -7,9 +7,10 @@ implement React-Redux as the state management system
 2. set up empty reducer and initialState
 3. createStore
 4. wrap app in provider
-5. action creators
-6. reducer logic
-7. connect components
+5. connect component to redux
+6. convert from using State in App.js to using props
+7. action creators
+8. reducer logic
 
 ## _MVP Requirements:_
 
