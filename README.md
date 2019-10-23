@@ -9,8 +9,9 @@ implement React-Redux as the state management system
 4. wrap app in provider
 5. connect component to redux
 6. convert from using State in App.js to using props
-7. action creators
+7. action creators - ADD_FEATURES REMOVE_FEATURES
 8. reducer logic
+9. import actionCreators to app and connect them
 
 ## _MVP Requirements:_
 
