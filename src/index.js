@@ -9,5 +9,12 @@ import { createStore } from "redux";
 import { reducer } from "./reducers";
 import { Provider } from "react-redux";
 
+const store = createStore(reducer);
+
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(
+    <Provider store={store}>
+        <App />
+    </Provider>,
+    rootElement
+);
