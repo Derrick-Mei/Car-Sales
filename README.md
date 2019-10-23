@@ -12,6 +12,7 @@ implement React-Redux as the state management system
 7. action creators - ADD_FEATURES REMOVE_FEATURES
 8. reducer logic
 9. import actionCreators to app and connect them
+10. complete functions in app.js, pass them down as props and add to onClick
 
 ## _MVP Requirements:_
 
