@@ -3,10 +3,13 @@ implement React-Redux as the state management system
 
 ## Directions
 
-1. set up empty reducer and initialState
-2. action creators
-3. reducer logic
-4. connect components
+1. install redux react-redux node-sass
+2. set up empty reducer and initialState
+3. createStore
+4. wrap app in provider
+5. action creators
+6. reducer logic
+7. connect components
 
 ## _MVP Requirements:_
 
